@@ -24,14 +24,6 @@ contract CrowdFunding {
         require(state == State.FUNDRAISING, "campaign not in fundraising state");
         contributions[msg.sender] += msg.value;
         totalRaised += msg.value;
-
-        // Check if sender is already in funders array
-        for (uint i = 0; i < funders.length; i++) {
-            if (funders[i] == msg.sender) {
-                return;
-            }
-        }
-        // Sender was not in funders array, so add it
         funders.push(msg.sender);
     }
 
