@@ -75,7 +75,7 @@ contract License {
         _;
     }
 
-    function grantLicense() onlyArbiter external {
+    function grantLicense() external onlyArbiter {
         hasLicense = true;
         evaluateLicenseContract();
     }

@@ -7,10 +7,6 @@ contract Insurance {
     address public constant DATA_SOURCE = 0xF237A1826aA6Fc931B04bDeE1536224BF7E63C90;
     address public constant INSURER = 0x0460c3fb9ce497308777020199Eb553F31E1bcE7;
 
-    // address public constant POLICYHOLDER = 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db;
-    // address public constant DATA_SOURCE = 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2;
-    // address public constant INSURER = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
-
     uint public constant POLICY_EXPIRATION = 1672534800;
 
     uint public constant CYCLONE_PAYOUT_LIMIT = 100 ether;

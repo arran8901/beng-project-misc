@@ -212,19 +212,5 @@ contract PharmacogenomicsData {
 
         return matchCount;
     }
-
-// observation('HLA-B', 57, 'abacavir', 'Improved', true, false).                                    
-// observation('HLA-B', 49, 'abacavir', 'Improved', true, false).                                    
-// observation('HLA-B', 57, 'abacavir', 'Deteriorated', true, true).                                 
-// observation('test', 49, 'abacavir', 'Improved', true, false).                                     
-// observation('HLA-B', 49, 'test', 'Improved', true, false).                                        
-// observation('HLA-B', 57, 'abacavir', 'Unchanged', true, false).
-
-// "HLA-B", 57, "abacavir", "Improved", true, false
-// "HLA-B", 49, "abacavir", "Improved", true, false
-// "HLA-B", 57, "abacavir", "Deteriorated", true, true
-// "test", 49, "abacavir", "Improved", true, false
-// "HLA-B", 49, "test", "Improved", true, false
-// "HLA-B", 57, "abacavir", "Unchanged", true, false
 }
 
